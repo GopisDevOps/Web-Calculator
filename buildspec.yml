@@ -3,7 +3,7 @@ version: 0.2
 phases:
   install:
     runtime-versions:
-      java: corretto21
+      linux: 1
     commands:
       - echo Nothing to do in the install phase...
   pre_build:
